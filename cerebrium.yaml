@@ -1,0 +1,14 @@
+name: coding-compiler-server
+runtime: python3.9
+handler: codingcompilerserver.handler
+memory: 1024
+timeout: 30
+
+dependencies:
+  apt:
+    - python3
+    - python3-pip
+    - nodejs
+    - npm
+    - g++
+    - openjdk-11-jdk 
